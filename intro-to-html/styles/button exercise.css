@@ -1,0 +1,116 @@
+.Rnb{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 30px;
+  border: none;
+ font-size: 15px;
+ font-weight:lighter;
+ cursor: pointer;
+ transition: opacity 0.15s;
+}
+.Rnb:hover{
+opacity: 0.7;
+}
+
+.Atcb{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 62);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius:40px ;
+  font-weight: bold;
+  transition: background-color 0.20S;
+  transition: box-shadow 0.20s;
+}
+.Atcb:Hover{
+  background-color: rgb(255, 255, 0);
+  box-shadow: 2px 1.5px 5px rgba(70, 68, 4, 0.936);
+}
+
+
+.sub{
+  background-color: rgb(41, 217, 41);
+  width: 100px;
+  height:40px ;
+  border-width: 2px;
+  border-color:rgb(41, 217, 41);
+  border-style: solid;
+  border-radius:5px ;
+  color:white ;
+  font-weight: bold;
+  font-size:15px ;
+  transition: box-shadow 0.20s, border-width 0.20s, border-color 0.20s;
+}
+.sub:hover{
+box-shadow: 2.5px 2px 7px  rgba(6, 113, 31, 0.936);
+border-width: 2px;
+border-color: white;
+}
+.gsb{
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 110px;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  transition: background-color 0.20s;
+}
+.gsb:hover{
+background-color:rgb(84, 3, 84) ;
+}
+
+.db{
+width: 100px;
+height: 35px;
+background-color: white;
+border-width: 1px;
+font-weight: bold;
+border-radius: 4px;
+transition: background-color 0.20s;
+}
+.db:hover{
+background-color: gray;
+}
+
+.aocwb{
+background-color: rgb(35, 53, 121);
+width: 215px;
+color: white;
+font-weight:bold ;
+border: none;
+border-radius:20px;
+height: 35px;
+font-size: 14px;
+}
+.aocwb:hover{
+opacity: 0.8;
+}
+.aocwb:active{
+opacity: 0.5;
+}
+
+.sb{
+width: 70px;
+color: rgb(41, 39, 135);
+background-color: white;
+font-weight:bold ;
+border:solid;
+border-color: rgb(0, 0, 95);
+border-radius:20px;
+border-width: 1px;
+height: 35px;
+font-size:14px;
+transition: background-color 0.15s;
+
+}
+.sb:hover{
+background-color: rgb(216, 216, 233);
+border-width:2.5px ;
+cursor: pointer;
+}

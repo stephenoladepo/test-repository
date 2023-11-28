@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html style="display: grid;">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Playfair+Display:wght@400;700;900&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <title>giddyson</title>
+    <style>
+      p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+      }
+      .header{
+        background-color: green;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+      }
+      .logo{
+        width:80px;
+        vertical-align: 7px;
+        border-radius: 40px;
+        margin-right: 5px;
+      }
+      .company-name{
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+        font-family: oswald;
+        width: 300px;
+        margin-right: 150px;
+        
+      }
+      .sub-company-name{
+        color: black;
+        font-size: 20px;
+        vertical-align:top;
+        font-weight: lighter;
+      }
+      .home,.our-product,.contact{
+        margin-right: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;
+        text-decoration: underline;
+        background-color:transparent;
+        border: none;
+        
+      }
+      .home:hover, .our-product:hover, .contact:hover{
+        cursor: pointer;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.679);
+      }
+      .home-image{
+        width: 100%;
+        object-fit: cover;
+      }
+      .home-image-row{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: lightcoral;
+      }
+      .who-we-are{
+        color: rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: large;
+      }
+      .sub-heading{
+        font-family: oswald;
+        color: green;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-bottom: 10px;
+      }
+      .body{
+        font-family: Arial;
+        width: 700px;
+        line-height: 25px;
+        font-weight: 500;
+        font-size:17px;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .back-stage{
+        display: grid;
+        background-color: rgb(226, 223, 223);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-left: 5px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.451);
+      }
+      .body-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <img class="logo" src="/Giddyson/logo.jpg">
+      </div>
+      <div>
+        <p class="company-name">
+          GIDDYSON HEALTHCARE
+        <span class="sub-company-name">
+          Pharmaceutical Company
+        </span> 
+       </p>
+      </div>
+      <div style=" flex: 1; display: flex;">
+      <div>
+        <p class="home">
+          Home
+        </p>
+      </div>
+      <div>
+        <p class="our-product">
+          Our Product
+        </p>
+      </div>
+      <div>
+        <p class="contact">
+        Contact
+      </p>
+     </div>
+      </div>
+    </div>
+    <div class="home-image-row">
+      <img class="home-image" src="/Giddyson/IMG_7442 opt.heic">
+    </div>
+    <div class="body-grid">
+      <p class="who-we-are">
+        WHO WE ARE
+      </p>
+      <p class="sub-heading">
+        Giddyson Healthcare Limited
+      </p>
+      <p class="body">
+      Giddyson Health Limited has an established identity, strength, purity, and other quality characteristics designed to ensure the required level of safety and effectiveness.
+      A collection of processes focused on consistently providing quality products and services, meeting Customers’ requirements, and enhancing their satisfaction.
+      </p>
+    </div>
+    <div class="back-stage">
+      <p>Home</p>
+      <p>About us</p>
+      <p>Contact us</p>
+      <p>More</p>
+    </div>
+  </body>
+</html>
